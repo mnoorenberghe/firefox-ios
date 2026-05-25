@@ -55,6 +55,7 @@
 		0A76936B2C82018700103A6D /* TrackingProtectionBlockedTrackersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76936A2C82018700103A6D /* TrackingProtectionBlockedTrackersView.swift */; };
 		0A8058272F694E2F004CB4A9 /* CreditCardBottomSheetViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8058262F694E21004CB4A9 /* CreditCardBottomSheetViewControllerTests.swift */; };
 		0A80C4242F3CD3F300DB85AE /* AppAuthenticatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80C4232F3CD3EB00DB85AE /* AppAuthenticatorTests.swift */; };
+		A1B2C3D52FA0000000AAA001 /* WebsiteDarkModeAppIntentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D32FA0000000AAA001 /* WebsiteDarkModeAppIntentTests.swift */; };
 		0A80C4262F3CD45900DB85AE /* MockLAContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80C4252F3CD45400DB85AE /* MockLAContext.swift */; };
 		0A8A37B02F45E070005A84C7 /* LAContextProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A37AF2F45E066005A84C7 /* LAContextProtocol.swift */; };
 		0A8A37B12F45E070005A84C7 /* LAContextProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A37AF2F45E066005A84C7 /* LAContextProtocol.swift */; };
@@ -712,6 +713,7 @@
 		5AB4237C28A1947A003BC40C /* MockNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB4237B28A1947A003BC40C /* MockNotificationCenter.swift */; };
 		5AC7110729F822E60011ED11 /* MockTabSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7110629F822E60011ED11 /* MockTabSessionStore.swift */; };
 		5AD3B6742CF625B000AFA1FE /* DefaultBrowserUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3B6732CF625A300AFA1FE /* DefaultBrowserUtility.swift */; };
+		A1B2C3D42FA0000000AAA001 /* WebsiteDarkModeAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D22FA0000000AAA001 /* WebsiteDarkModeAppIntent.swift */; };
 		5AD3B6782CF650DF00AFA1FE /* DefaultBrowserUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3B6772CF650D000AFA1FE /* DefaultBrowserUtilityTests.swift */; };
 		5AD3B67C2CF65DE600AFA1FE /* LocaleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3B67B2CF65DE300AFA1FE /* LocaleProvider.swift */; };
 		5AD3B67E2CF665B400AFA1FE /* UIApplicationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3B67D2CF665AE00AFA1FE /* UIApplicationInterface.swift */; };
@@ -2773,6 +2775,7 @@
 		0A7D41DB98DDB127A2B8C544 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Menu.strings; sourceTree = "<group>"; };
 		0A8058262F694E21004CB4A9 /* CreditCardBottomSheetViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardBottomSheetViewControllerTests.swift; sourceTree = "<group>"; };
 		0A80C4232F3CD3EB00DB85AE /* AppAuthenticatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthenticatorTests.swift; sourceTree = "<group>"; };
+		A1B2C3D32FA0000000AAA001 /* WebsiteDarkModeAppIntentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteDarkModeAppIntentTests.swift; sourceTree = "<group>"; };
 		0A80C4252F3CD45400DB85AE /* MockLAContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLAContext.swift; sourceTree = "<group>"; };
 		0A8A37AF2F45E066005A84C7 /* LAContextProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAContextProtocol.swift; sourceTree = "<group>"; };
 		0A93C8A92C87070300BEA143 /* TrackingProtectionConnectionStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingProtectionConnectionStatusView.swift; sourceTree = "<group>"; };
@@ -8871,6 +8874,7 @@
 		5AC549C0BA565EB2B08B87EC /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/ClearHistoryConfirm.strings; sourceTree = "<group>"; };
 		5AC7110629F822E60011ED11 /* MockTabSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTabSessionStore.swift; sourceTree = "<group>"; };
 		5AD3B6732CF625A300AFA1FE /* DefaultBrowserUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBrowserUtility.swift; sourceTree = "<group>"; };
+		A1B2C3D22FA0000000AAA001 /* WebsiteDarkModeAppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteDarkModeAppIntent.swift; sourceTree = "<group>"; };
 		5AD3B6772CF650D000AFA1FE /* DefaultBrowserUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBrowserUtilityTests.swift; sourceTree = "<group>"; };
 		5AD3B67B2CF65DE300AFA1FE /* LocaleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleProvider.swift; sourceTree = "<group>"; };
 		5AD3B67D2CF665AE00AFA1FE /* UIApplicationInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationInterface.swift; sourceTree = "<group>"; };
@@ -13713,6 +13717,7 @@
 				5AD3B6772CF650D000AFA1FE /* DefaultBrowserUtilityTests.swift */,
 				5AD3B67F2CF6674B00AFA1FE /* MockUIApplication.swift */,
 				8A3FDEB72FAE5A4E001F5DE9 /* SceneDelegateTests.swift */,
+				A1B2C3D32FA0000000AAA001 /* WebsiteDarkModeAppIntentTests.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -17113,6 +17118,7 @@
 				1DA6F6502B48B42900BB5AD6 /* WindowEventCoordinator.swift */,
 				1DC372012B23C80F000F96C8 /* WindowManager.swift */,
 				1DF2BDC22BD1BCF300E53C57 /* WindowManager+DebugUtilities.swift */,
+				A1B2C3D22FA0000000AAA001 /* WebsiteDarkModeAppIntent.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -19285,6 +19291,7 @@
 				C28CAABF2E5C8C660049D7C7 /* InsetUpdatable.swift in Sources */,
 				3BCE6D3C1CEB9E4D0080928C /* ThirdPartySearchAlerts.swift in Sources */,
 				5AD3B6742CF625B000AFA1FE /* DefaultBrowserUtility.swift in Sources */,
+				A1B2C3D42FA0000000AAA001 /* WebsiteDarkModeAppIntent.swift in Sources */,
 				8A93F86229D36F0F004159D9 /* NavigationController.swift in Sources */,
 				ABCEC0292D3DE2C80040F40D /* TrackingProtectionTelemetry.swift in Sources */,
 				E13F8C342928194800BDC8B4 /* PhotonActionSheetSiteHeaderView.swift in Sources */,
@@ -20485,6 +20492,7 @@
 				C25017362ECBAD0A0071506F /* MockRemoteSettingsClient.swift in Sources */,
 				8A11C8112731CFD700AC7318 /* ReaderModeStyleTests.swift in Sources */,
 				8A3FDEB82FAE5A4E001F5DE9 /* SceneDelegateTests.swift in Sources */,
+				A1B2C3D52FA0000000AAA001 /* WebsiteDarkModeAppIntentTests.swift in Sources */,
 				EDD3348E2D109458004516D0 /* ShareTelemetryTests.swift in Sources */,
 				0EC57CE32CA31C5B002E3F04 /* PasswordGeneratorViewControllerTests.swift in Sources */,
 				3943A81D1E9807C700D4F6DC /* FxAPushMessageTest.swift in Sources */,
