@@ -60,6 +60,9 @@ final class WebsiteDarkModeAppIntentTests: XCTestCase {
     }
 
     func testFirefoxAppShortcutsProvider_exposesWebsiteDarkModeShortcut() {
-        XCTAssertEqual(FirefoxAppShortcutsProvider.appShortcuts.count, 1)
+        let shortcuts = FirefoxAppShortcutsProvider.appShortcuts
+
+        XCTAssertEqual(shortcuts.count, 1)
+        XCTAssertTrue(shortcuts[0].intent is SetWebsiteDarkModeIntent)
     }
 }
